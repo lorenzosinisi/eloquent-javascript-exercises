@@ -1,5 +1,6 @@
 /*
   Write a funciton that returns the minimum between 2 numbers in Javascript
+  taking into account the -Infinity
 */
 function minimum(first, second) {
   if (typeof first != "number" || typeof second != "number" ) {
