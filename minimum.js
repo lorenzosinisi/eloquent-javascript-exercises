@@ -8,12 +8,12 @@ function minimum(first, second) {
     } else {
       return null;
     }
-  };
+  }
   if (first < second) {
     return first;
   } else {
     return second;
-  };
+  }
 }
 minimum(1, 100);
 minimum(); // -Infinity
